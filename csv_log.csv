@@ -1,0 +1,6 @@
+"Time","Filename","Class","Function","Message","custom_var"
+"2017-03-04 23:39:45.992199","test_class.py","NoneType","outside_function","In outside_function","Not inside a class!"
+"2017-03-04 23:39:45.992466","test_class.py","TestClass","__init__","In __init__"
+"2017-03-04 23:39:45.992608","test_class.py","NoneType","<module>","In MAIN"
+"2017-03-04 23:39:45.992833","test_class.py","TestClass","another_function","In another_function"
+"2017-03-04 23:39:45.993054","test_class.py","NoneType","outside_function","In outside_function","Not inside a class!"

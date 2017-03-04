@@ -1,0 +1,13 @@
+USAGE:
+
+ python test_class.py
+
+
+Customised log entries are in the form:
+
+ logger.log_current_status(None, {'var_1_name':var_1_value,'var_2_name':var_2_value, ,'var_3_name':var_3_value})
+
+and you can add as many key value pairs to each log entry as you want, depending on how many variables you wish to log on one row of the csv file.
+
+Afterwards, load the csv file into a spreadsheet of your choice and use auto-filtering and custom-filtering in whatever way you like
+
