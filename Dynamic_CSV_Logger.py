@@ -2,6 +2,7 @@ import imp
 import inspect
 import sys
 import datetime
+import re
 
 class Logger:
 	logger_headers = []
@@ -37,6 +38,9 @@ class Logger:
 		logger_row.append(function_name)
 		
 		for key,val in param_dict.items():
+			
+			key = re.sub('"', '""', key)
+			val = re.sub('"', '""', val)
 			
 			if key not in self.logger_headers:
 				self.logger_headers.append(key)

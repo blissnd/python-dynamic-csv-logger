@@ -1,6 +1,10 @@
-"Time","Filename","Class","Function","Message","custom_var"
-"2017-03-04 23:39:45.992199","test_class.py","NoneType","outside_function","In outside_function","Not inside a class!"
-"2017-03-04 23:39:45.992466","test_class.py","TestClass","__init__","In __init__"
-"2017-03-04 23:39:45.992608","test_class.py","NoneType","<module>","In MAIN"
-"2017-03-04 23:39:45.992833","test_class.py","TestClass","another_function","In another_function"
-"2017-03-04 23:39:45.993054","test_class.py","NoneType","outside_function","In outside_function","Not inside a class!"
+"Time","Filename","Class","Function","Message with ""double quotes""","custom_var","Message with 
+newline"
+"2018-08-31 23:46:55.583224","test_class.py","NoneType","outside_function","""In, outside_
+function""","Not inside a class!"
+"2018-08-31 23:46:55.583474","test_class.py","TestClass","__init__","","","In __init__"
+"2018-08-31 23:46:55.583584","test_class.py","NoneType","<module>","""In MAIN"""
+"2018-08-31 23:46:55.583761","test_class.py","TestClass","another_function","","","In 
+another_function"
+"2018-08-31 23:46:55.583937","test_class.py","NoneType","outside_function","""In, outside_
+function""","Not inside a class!"
